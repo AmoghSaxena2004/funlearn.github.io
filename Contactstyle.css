@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainImg {
+    margin-top: -18px;
+    width: 100%;
+}
+.logo {
+    padding-left: 25px;
+    padding-top: 5px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+nav{
+    display: flex;   
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    color: white;
+}
+nav > h1 {
+    font-family: 'Bungee Shade', cursive;
+    margin-top: -25px;
+    word-spacing: 10px;
+    font-size: 60px;
+}
+.links {
+    margin-top: 45px;
+    margin-left: 50px;
+
+}
+a {
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Peralta', cursive;
+    color: white;
+    font-size: 20px;
+    padding-right: 25px;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: -20px;
+}
+a:visited {
+    color: white;
+}
+.intro{
+    margin-top: -40px;
+    background-color: #1d2b34;
+    height: 470px;
+}
+.intro h1{
+    text-align: center;
+    color: rgb(236, 233, 233);
+    font-weight: 400;
+    font-family: 'Stalinist One', cursive;
+    text-decoration: underline rgb(5, 142, 184);
+}
+.intro h2{
+    padding-top: 0px;
+    text-align: center;
+    color: rgb(236, 233, 233);
+    font-family: 'Architects Daughter', cursive;
+}
+footer{
+    margin-top: -20px;
+    background-color: #26526d;
+    height: 190px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps{
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps:hover{
+    text-decoration: underline;
+    padding-left: 20px;
+    color: green;
+}
+#info{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}

@@ -1,0 +1,160 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainImg {
+    margin-top: -18px;
+    width: 100%;
+}
+.logo {
+    padding-left: 25px;
+    padding-top: 5px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+nav{
+    display: flex;   
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    color: white;
+}
+nav > h1 {
+    font-family: 'Bungee Shade', cursive;
+    margin-top: -25px;
+    word-spacing: 10px;
+    font-size: 60px;
+}
+.links {
+    margin-top: 45px;
+    margin-left: 50px;
+
+}
+a {
+    text-decoration: none;
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Peralta', cursive;
+    color: white;
+    font-size: 20px;
+    padding-right: 25px;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 25px;
+    margin-left: -20px;
+}
+a:visited {
+    color: white;
+}
+.intro{
+    margin-top: -40px;
+    background-color: #1d2b34;
+    height: 120px;
+}
+.intro h1{
+    text-align: center;
+    color: rgb(236, 233, 233);
+    font-weight: 400;
+    font-family: 'Stalinist One', cursive;
+    text-decoration: underline rgb(5, 142, 184);
+}
+.intro h2{
+    padding-top: 0px;
+    text-align: center;
+    color: rgb(236, 233, 233);
+    font-family: 'Architects Daughter', cursive;
+}
+section{
+    margin-top: -20px;
+    background-color: rgb(9, 129, 209);
+}
+.container{
+    margin-left: 200px;
+}
+.container label{
+    padding-left: 0px;
+    font-size: 20px;
+    font-family: 'Peralta', cursive;
+    color: #1d2b34;
+}
+#lastName{
+    margin-left: 78px;
+}
+#class{
+    margin-left: 77px;
+}
+#email{
+    margin-left: 133px;
+}
+#no{
+    margin-left: 32px;
+}
+#doubt{
+    margin-top: 5px;
+    margin-left: 71px;
+    border-radius: 10px;
+}
+#doubt:focus{
+    background-color:#1d2b34;
+    color: lavender;
+}
+#doubt:hover{
+    height: 160px;
+}
+.container input{
+    width: 227px;
+    margin-left: 70px;
+    border-radius: 10px;
+    height: 25px;
+}
+.container input:focus{
+    background-color:#1d2b34;
+    color: lavender;
+}
+.container input:hover{
+    height: 35px;
+}
+button{
+    background-color: #1d2b34;
+    color: lavender;
+    border-radius: 10px;
+    margin-left: 110px;
+    font-family: 'Peralta', cursive;
+    font-size: 20px;
+    height: 45px;
+    width: 120px;
+}
+button:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: rgba(16, 187, 16, 0.89);
+}
+footer{
+    margin-top: -20px;
+    background-color: #1d2b34;
+    height: 200px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps{
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps:hover{
+    text-decoration: underline;
+    padding-left: 20px;
+    color: green;
+}
+#info{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}

@@ -1,0 +1,242 @@
+body {
+  font-family: "Goldman", sans-serif;
+  background-color: #A4F713;  
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  padding-left: 25px;
+  padding-top: 5px;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+}
+nav{
+  display: flex;   
+  background-color: black;
+  height: 110px;
+  width: 1515px;
+  color: white;
+}
+nav > h1 {
+  font-family: 'Bungee Shade', cursive;
+  margin-top: -25px;
+  word-spacing: 10px;
+  font-size: 60px;
+}
+.links {
+  margin-top: 45px;
+  margin-left: 50px;
+
+}
+a {
+  text-decoration: none;
+  font-family: 'Bungee Shade', cursive;
+  font-family: 'Peralta', cursive;
+  color: white;
+  font-size: 20px;
+  padding-right: 25px;
+}
+a:hover {
+  text-decoration: underline;
+  font-size: 25px;
+  margin-left: -20px;
+}
+a:visited {
+  color: white;
+}
+  .Class6 {
+    background-color: #1aa3e8;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top:4px;
+    left:138px;
+    transition: all .2s ease-in-out;
+
+  }
+  .Class6 h1 {
+    color: white;
+    text-align: center;
+    
+  }
+  .Class6 a {
+    text-decoration: none;
+    color: black;
+    align-items: left;
+  }
+  .Class6 img{
+    width: 250px;
+    height: 130px;
+    position: relative;
+    top: 32px;
+    left: 0px;
+  }
+  .Class7 {
+    background-color: #1aa3e8;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: -316px;
+    right: -602px;
+    transition: all .2s ease-in-out;
+    
+  }
+  .Class7 h1 {
+    color: white;
+    text-align: center;
+  }
+  .Class7 a {
+    text-decoration: none;
+    color: black;
+    align-items: left;
+  }
+  .Class7 img{
+    width: 277px;
+    height: 180px;
+    position: relative;
+    top: -34px;
+    left: 65px;
+  }
+  .Class8 {
+    background-color: #1aa3e8;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: -638px;
+    right: -1057px;
+    transition: all .2s ease-in-out;
+    
+  }
+  .Class8 h1 {
+    color: white;
+    text-align: center;
+  }
+  .Class8 a {
+    text-decoration: none;
+    color: black;
+    align-items: left;
+  }
+  .Class8 img{
+    width: 211px;
+    height: 145px;
+    position: relative;
+    top: 0px;
+    left: 90px;
+  }
+  .Class9 {
+    background-color: #1aa3e8;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: -625px;
+    left: 375px;
+    transition: all .2s ease-in-out;
+  }
+  .Class9 h1 {
+    color: white;
+    text-align: center;
+    
+  }
+  .Class9 a {
+    text-decoration: none;
+    color: black;
+    align-items: left;
+  }
+  .Class9 img{
+    width: 265px;
+    height: 195px;
+    position: relative;
+    top: -34px;
+    left: 54px;
+  }
+  .Class10 {
+    background-color: #1aa3e8;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: -946px;
+    left:848px;
+    transition: all .2s ease-in-out;
+  }
+  .Class10 h1 {
+    color: white;
+    text-align: center;
+    
+  }
+  .Class10 a {
+    text-decoration: none;
+    color: black;
+    align-items: left;
+  }
+  .Class10 img{
+    width: 226px;
+    height: 172px;
+    position: relative;
+    top: -10px;
+    left: 76px;
+  }
+  .Class6:hover{
+    transform: scale(1.1);
+  }
+  .Class7:hover{
+    transform: scale(1.1);
+  }
+  .Class8:hover{
+    transform: scale(1.1);
+  }
+  .Class9:hover{
+    transform: scale(1.1);
+  }
+  .Class10:hover{
+    transform: scale(1.1);
+  }
+  .Class6 a:hover{
+    text-decoration: underline;
+  }
+  .Class7 a:hover{
+    text-decoration: underline;
+  }
+  .Class8 a:hover{
+    text-decoration: underline;
+  }
+  .Class9 a:hover{
+    text-decoration: underline;
+  }
+  .Class10 a:hover{
+    text-decoration: underline;
+  }
+footer{
+    margin-top: -20px;
+    background-color: #1d2b34;
+    height: 130px;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps{
+    font-size: 20px;
+    color: rgb(187, 183, 183);
+    font-family: 'Architects Daughter', cursive;
+}
+.sps:hover{
+    text-decoration: underline;
+    padding-left: 20px;
+    color: green;
+}
+#info{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(187, 183, 183);
+  font-family: 'Architects Daughter', cursive;
+}
